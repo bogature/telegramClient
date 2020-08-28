@@ -1,17 +1,18 @@
-print("hello")
+print("hello   2222")
 
 from telethon import TelegramClient, events
 
-api_id = 1584723
-api_hash = '332a33d701c3740a65ec9d77377fb434'
-client = TelegramClient('+380994430922', api_id, api_hash)
+api_id = 1633358
+api_hash = 'afce4fe5707b69508bfc66cbe116ed73'
+client = TelegramClient('+380951112154', api_id, api_hash)
+
 
 listen_for_ids = (
-    -1001180528587,
+    1073702594,
 )
 
 forward_to_ids = (
-    775862240,
+    -1001243390227,
 )
 
 
