@@ -6,8 +6,8 @@ After=network.target
 User=root
 Group=root
 
-WorkingDirectory=/home/vladimir/tele_bot/
-Environment="PYTHONPATH=/home/vladimir/tele_bot/"
+WorkingDirectory=/home/root/telegramClient/
+Environment="PYTHONPATH=/home/root/telegramClient/"
 ExecStart=/home/root/telegramClient/program1.py /home/root/telegramClient/program2.py
 
 [Install]
