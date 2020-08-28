@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=root
+Group=root
+
+WorkingDirectory=/home/vladimir/tele_bot/
+Environment="PYTHONPATH=/home/vladimir/tele_bot/"
+ExecStart=/home/root/telegramClient/program1.py /home/root/telegramClient/program2.py
+
+[Install]
+WantedBy=multi-user.target
